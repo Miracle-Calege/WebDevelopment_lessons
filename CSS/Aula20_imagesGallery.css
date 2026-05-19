@@ -1,0 +1,16 @@
+.galeria{
+    display: inline-block;
+    border: 1px solid hsl(0,0%,60%);
+    margin: 5px;
+}
+.galeria .descricao{
+    padding: 10px;
+    text-align: center;
+}
+.galeria:hover{
+    border: 1px solid hsl(0,0%,20%);
+}
+.galeria img{
+    width: 100%;
+    height: auto;
+}

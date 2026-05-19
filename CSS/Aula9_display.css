@@ -1,0 +1,22 @@
+div{
+    background-color:hsl(0,100%,75%);
+    width: 100px;
+    height: 100px;
+    display: block;
+    visibility:hidden ;
+}
+span{
+    background-color:hsl(204,100%,75%);
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+/*
+display:
+block-> reserva um bloco(quadrado) cujo o seu comprimento e largura devem ser determinados pelo programadorpara se tornar visivel
+inline->coloca o componente numa linha
+inline-block->cria um bloco que so fica na mesma linha
+none->o conteudo nao sera exibido
+visibility:
+hidden-> torna o elemento nao visivel
+ */

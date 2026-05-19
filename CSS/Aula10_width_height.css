@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    /* *{} seleciona todos os elementos da pagina */
+}
+.container{
+    background-color: hsl(0,0%,24%);
+    height: 100vh;/*vh-viewport hight*/
+
+}
+.box{
+    background-color: hsl(0,0%,100%);
+    border:2px solid;
+    height:auto;
+    width:50% ;
+    padding: 25px;
+    float: left;
+    text-align:center;
+    max-height:50%;
+}
+
+
+
+
+
+/*
+height:
+width:
+auto->ajusta o tamanho automaticamente(geralmente ocupa todo o espaco disponivel)
+numero%-> percentagem do espaco a ser ocupado
+padding-> determina o espacamento entre o conteudo e as margens
+  box-sizing: border-box;-> inclue o padding e border para o calculo de width e height
+   max-width/height:25%; determina o espaco maximo a ser ocupado
+    min-width/height:25%;determina o espaco minimo a ser ocupado
+ */

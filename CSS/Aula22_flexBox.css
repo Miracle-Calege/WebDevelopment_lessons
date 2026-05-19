@@ -1,0 +1,35 @@
+.container{
+    display: flex;/*coloca os elementos na horizontal no canto esquerdo*/
+    /*flex-direction:row;row(por definicao)-coloca os elementos em forma de linha,row-reverse-> coloca em linha na ordem reversa, column-coloca em forma de coluna e column-reverse-coloca em forma de coluna na ordem reversa*/
+    /*justify-content:space-evenly;justify-content->lida com disposicao dos elementos no eixo x,flex-start(por definicao)-o item e colocado no inicio do container,flex-end-posicionado no final do container,center-posicionado no centro do container,center-coloca os elementos no centro,space-between-coloca espaco entre os elementos, space-around-> coloca espaco em volta dos elementos e entre os elementos, space-evenly-*/
+    border:10px solid black;
+    height: 90vh;
+    /*flex-wrap: wrap;/*faz com que caso não haja espaco suficente naquela linha do container os elementos sejam colocados noutra linha*/
+    /*align-content: flex-start;*/
+    /*column-gap:3em;adiciona o gap entre colunas*/
+    /*row-gap:2em;/*adiciona o gap entre linhas*/
+
+    /*align-items: center;align-items->lida com os elementos no eixo y, flex-star,flex-end,center,baseline*/
+}
+.box{
+    width: 150px;
+    height: 150px;
+    font-size: 8em;
+    text-align: center;
+    border-radius: 15px;
+
+}
+#box1{
+    background-color: hsl(0,100%,70%);
+    /*align-self: start;/*dispoem individualmente cada elemento*/
+    order:1;/*dispoem os elementos numa certa ordem 1-ultima posica0 -1-primeira posicao*/
+}
+#box2{
+    background-color: hsl(52,100%,70%);
+}
+#box3{
+    background-color: hsl(111,100%,70%);
+}
+#box4{
+    background-color: hsl(201,100%,70%);
+}

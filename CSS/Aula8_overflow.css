@@ -1,0 +1,12 @@
+div {
+    border: 2px solid;
+    height: 75px;
+    overflow:clip;
+    overflow-clip-margin:13px;
+}
+/*visible-> deixa visivel o conteudo que atravessa a borda
+hidden->oculta o conteudo que atravessa a borda
+clip, usado com overflow-clip-margin:number px-> determina a quantidade de conteudo  que atravessa a borda que podera ser visivel;
+scroll->adiciona uma scrollbar
+auto->adiciona uma scrollbar considerando a quantidade de conteudo
+*/

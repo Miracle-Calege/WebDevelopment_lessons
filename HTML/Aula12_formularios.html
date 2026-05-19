@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<form action="index.php" method="POST" enctype="multipart/form-data"> <!-- esta tag cria um formulario, atributo action->especifica para aonde os dados irao apos a submissao e o method-> especifica que http method usar, enctype="multipart/form-data" para casos que quisermos submeter dados grandes -->
+    <label for="username"> Username:</label> <!-- esta tag cria uma label/texto que estara antes da input box, o atributo for e usado para especificar a categoria da label-->
+    <input type="text" id="username" placeholder="username"  minlength="6" maxlength="15" required> <!-- esta tag  um rectangulo onde podemos colocar alguma informacao, mas o atributo type especifica o tipo de rectangulo a ser exibido, id-> deve ser igual ao atributo for(se usarmos o for tambem devemos usar o id no input) minlength-tamanho minimo e maxlength-tamanho maximo, placeholder coloca um texto sombra no textfield-->
+    <!--required  e responsavel por garantir que a condicao antes dela(required) seja cumprida -->
+    <label for="password"> Password:</label>
+    <input type="password" id="password" minlength="6" maxlength="15"><br>
+
+    <label for="email"> email:</label>
+    <input type="email" id="email" placeholder="username@gmail.com"><br>
+
+    <label for="telefone"> Telefone:</label>
+    <input type="tel" id="telefone" placeholder="+258850987012"><br>
+
+    <label for="data"> Data de nascimento:</label>
+    <input type="date" id="data" ><br>
+
+    <label for="qt"> Quantidade:</label>
+    <input type="number" id="qt"  minlength="0" maxlength="99" ><br>
+
+    <label> Titulo:</label>
+    <label for="Sr"> Sr:</label>
+    <input type="radio" id="Sr" value="Sr." name="title"> <!-- para permitir que os radiobutton so aceitem uma selecap todos os atributos name devem ser o mesmo valor/conteudo-->
+    <label for="Sra"> Sra:</label>
+    <input type="radio" id="Sra"  value="Sra." name="title">
+    <label for="PHD"> phd:</label>
+    <input type="radio" id="PHD"  value="PHD."  name="title"><br>
+
+    <label> Pagamento:</label>
+    <select> <!-- cria um dropmenu-->
+        <option value="visa"> Visa </option> <!-- adiciona um elemento na droplist-->
+        <option value="M-pesa"> M-pesa </option> <!-- adiciona um elemento na droplist-->
+        <option value="Emola"> E-mola </option> <!-- adiciona um elemento na droplist-->
+    </select><br>
+
+    <label for="subscricao"> Subscricao:</label>
+    <input type="checkbox" id="subscricao" ><br>
+
+    <label for="Comentario"> Comentario:</label>
+    <textarea id="Comentario"  rows="3" cols="25"></textarea> <br><!-- essa tag cria uma textarea limitada por 3 linhas e 25 colunas-->
+
+    <label for="Ficheiro"> Ficheiro:</label>
+    <input type="file" id="Ficheiro" accept="image/png"><br> <!-- accept limita o tipo de dado a ser enviado -->
+
+    <input type="reset" value="reset"><br>
+    <input type="submit" value="Enviar"> <!-- colocando o atributo type="submit" gerara um botao qye gera o evento que submeter enquanto que com a tag <button> o evento deve ser criado pelo programador o atributo value coloca o texto no botao -->
+</form>
+
+</body>
+</html>

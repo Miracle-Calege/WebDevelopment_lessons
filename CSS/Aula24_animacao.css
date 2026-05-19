@@ -1,0 +1,62 @@
+body{
+    background-color:hsl(0,0%,12%) ;
+}
+#box{
+    width: 250px;
+    height: 250px;
+    background-color: hsl(0,100%,62%);
+    font-size:13em;
+    text-align: center;
+    animation-name:brilhar;/*devemos colocar esta linha para executar o keyframe*/
+    animation-duration: 2s;/*duracao da animacao*/
+    animation-iteration-count: 2;/*numero de vezes que a animacao deve acontecer, pode ser um numero ou infinite*/
+    animation-direction: normal;/*determina a direccao da animacao, normal,reverse,alternate,alternate-reverse*/
+    animation-play-state: paused;/*paused-pausar animacao,running-para continuar a animacao*/
+    animation-timing-function:ease-in-out;/*determina a velocidade da animacao,linear-velocidade constante,ease-in-out-acelera e reduz proximo da posicao final,steps(numero)->executa a animacao em passos */
+
+}
+/*#box:hover{*/
+/*    !*a animacao so iniciara quando colocarmos o cursor no componente*!*/
+/*    animation-name:brilhar;*/
+/*    animation-duration: 2s;*/
+/*}*/
+
+@keyframes moverEsquerda {/*para criar animacoes usamos @keyframes nome (a nossa escolha)*/
+    from{transform: translateX(300%)}/*parte da posicao 300% ate posicao inical*/
+}
+@keyframes moverDireita {
+    to{transform: translateX(300%)}/*parte da posicao inicial e vai ate aos 300%*/
+}
+@keyframes moverCima {
+    from{transform: translateY(300%)}
+}
+@keyframes moverBaixo {
+    to{transform: translateY(300%)}
+}
+
+@keyframes rotacionar {
+    50%{transform:rotateZ(360deg)} /*100% refere-se ao duracao no nosso caso 2, vai rotacionar por dois segundos, de fosse 50% rotacionaria por 1s*/
+}
+
+@keyframes crescer {
+    50%{transform:scale(2,2)}
+}
+@keyframes decrescer {
+    50%{transform:scale(0.5,0.5)}
+}
+@keyframes  desvanecer {
+    100%{opacity: 1}
+}
+@keyframes mudarCor {
+    0%{background-color: hsl(0,100%,62%)}
+    20%{background-color: hsl(35,100%,62%)}
+    40%{background-color: hsl(63,100%,62%)}
+    60%{background-color: hsl(103,100%,62%)}
+    80%{background-color: hsl(201,100%,62%)}
+    90%{background-color: hsl(268,100%,62%)}
+}
+
+@keyframes brilhar {
+    50%{box-shadow: 0px 0px 50px hsl(60,100%,50%);}
+
+}

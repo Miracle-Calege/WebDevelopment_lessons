@@ -1,0 +1,24 @@
+body{
+    margin: 0px;/*determina o espacamento da margem(conteudo-margem da pagina)*/
+}
+
+/*para identificar uma classe .nome da classe*/
+.box{
+    border: 5px solid;
+    font-size:5em;
+    width: 250px;
+    height: 250px;
+    margin: 50px;/*adiciona margens em todos os lados*/
+}
+/*para identificar um id .id*/
+#box1{
+    background-color: hsl(0,100%,50%);
+    /*margin-top:50px;coloca a margem no topo*/
+    /*margin:auto;coloca a margem no centro sempre que o tamanho da pagina aumentar*/
+    /*margin-left:auto;coloca a margem na direita sempre que o tamanho da pagina aumenta*/
+    /*margin-right:auto;coloca a margem na esquerda sempre que o tamanho da pagina aumenta*/
+
+}
+#box2{
+    background-color: hsl(189,100%,55%);
+}

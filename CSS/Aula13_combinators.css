@@ -1,0 +1,33 @@
+/*
+combinators-> explica a relacao entre selectors(.,#, *)
+
+
+ */
+
+#container{
+    border:2px solid;
+}
+
+/*
+combinator descendent-> é só um espaco entre um selector e o componente.Seleciona todos os elementos dentro do outro não importa o nível(todos dentro do  div container serão highlighted )
+#container p{
+    background-color: hsl(60,100%,70%);
+}
+ */
+
+/*
+> - child combinator só os p que estão directamente relacionados ao div container serão highlighted(seleciona os filhos directos).(por isso #1 e #2 serão highlighted)
+#container > p{
+    background-color: hsl(60,100%,70%);
+}
+ */
+/* ~ -> general siblings seleciona todos p que vêm depois div container(desde que não sejam parte de um outro componente)
+#container ~ p{
+    background-color: hsl(60,100%,70%);
+}
+
+ */
+
+#container + p{ /* + -> seleciona o proximo p depois do div container */
+    background-color: hsl(60,100%,70%);
+}

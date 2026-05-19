@@ -1,0 +1,11 @@
+h1{
+    text-shadow:3px 3px 5px hsl(0,100%,61%),-3px -3px 5px hsl(197,100%,61%);/*cria uma sombra, (horizontal, vertical)offset, desfoce(terceiro argumento),cor(quarto argumento) */
+    /*cada par de argumento corresponde a uma sombra, separamos os pares por virgula*/
+}
+
+#box1{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(234,234,234);
+    box-shadow: 3px 3px 5px;/*cria um quadrado com somba*/
+}

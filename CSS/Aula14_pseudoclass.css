@@ -1,0 +1,42 @@
+
+/*
+pseudoclass -> é um componente que adiciona estados ou condicoes ao um selector
+como usar: selector/componente : pseudoclass{ estilo}
+ */
+
+/*a:link{!* link-> define caracteristicas para clicks que ainda não foram visitados pelo usuário*!*/
+/*    color: hsl(221,100%,74%);*/
+/*}*/
+
+
+/*a:hover{!* hover-> quando passarmos o cursor  pelo componente(link) o tamanho do link aumentará 1.1em como colocado *!*/
+/*    color: hsl(221,100%,86%);*/
+/*    font-size: 1.1em;*/
+/*}*/
+/*a:active{!*active-> quando o componente(link) for clicado as caracteristica abaixo serão aplicados nele *!*/
+/*    color: hsl(240,100%,58%);*/
+/*    font-size: 1.1em;*/
+/*}*/
+/*a:visited{!*visited-> aplica as caracteristicas abaixo no componente(link) se ele já tiver sido visitado*!*/
+/*    color: hsl(0,0%,75%);*/
+/*}*/
+
+/*li:hover{*/
+/*    background-color: hsl(60,100%,70%);*/
+/*}*/
+/*li:not(:hover) {!* :not (:pseucodclass) para fazer o oposto *!*/
+/*    background-color: hsl(0,0%,76%);*/
+/*}*/
+
+/*li:nth-child(3n+2){!* nth-child(argumento)-> aplica um  a caracteristica abaixo a lista, argumento pode ser um número que corresponde a um número de  linha, odd, even, numeron(ex:3n->todos que são múltiplos de 3) *!*/
+/*    background-color: hsl(60,100%,78%);*/
+/*}*/
+
+#saudacoes p{
+    background-color: hsl(196,100%,81%);
+    padding: 10px;
+    display: none;
+}
+#saudacoes:hover p{
+    display: block;
+}

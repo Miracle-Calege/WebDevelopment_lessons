@@ -1,0 +1,19 @@
+.paginacao{
+    text-align: center;
+}
+.paginacao a{
+    color:black;
+    text-decoration: none;
+    padding: 8px 15px;
+    display: inline-block;
+
+}
+.paginacao a.activo{/* no selector a.activo-> pega a pertencente a classe activo*/
+    background-color: hsl(120,100%,70%);
+    font-weight: bold;
+    border-radius: 5px;
+}
+.paginacao a:hover:not(.activo){/* um pseudoclass que pega todas as classes diferentes do activo*/
+    background-color: hsl(0,0%,66%);
+    border-radius: 5px;
+}

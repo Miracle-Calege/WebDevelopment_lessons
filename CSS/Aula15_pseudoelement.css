@@ -1,0 +1,28 @@
+/*Pseudo-elemento (::)
+Estiliza uma parte específica do elemento
+ */
+h1::first-letter{/*first-letter-> modifica a primeira letra do h1 */
+    font-size: 2em;
+    font-style: italic;
+}
+
+p:first-line{/*first-line-> modifica a primeira linha do p */
+    background-color: hsl(60,100%,77%);
+}
+
+p::selection{/*selection-> modifica parte do texto que foi selecionado no paragrafo */
+    color:rgb(89,255,71);
+    background-color: hsl(0,0%,21%);
+}
+
+#fruta li::before{/* before-> antes de cada elemento da lista adiciona as caracteristicas abaixo*/
+    content: "*";
+}
+#maca::after{/* after-> depois de cada elemento da lista adiciona as caracteristicas abaixo*/
+    content: "#";
+}
+#fruta li::marker{/*marker-> marca um item de uma lista*/
+    content: "*";
+    color:hsl(120,100%,64%);
+    font-size:1.2em ;
+}

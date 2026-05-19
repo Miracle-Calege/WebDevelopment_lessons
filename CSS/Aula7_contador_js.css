@@ -1,0 +1,24 @@
+#contador {
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family:Helvetica, sans-serif;
+}
+
+#container{
+    text-align: center;
+
+}
+.botoes{
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color:white;
+    background-color: hsl(214,100%,74%);
+    border-radius: 5px;
+    cursor: pointer;/*muda a forma de exibicao do cursor quando estiver no botao*/
+    transition:background-color 0.25s;/*muda a cor dos botoes suavemente para a cor no hover*/
+}
+
+.botoes:hover{
+    background-color: hsl(214,100%,56%);
+}

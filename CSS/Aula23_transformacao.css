@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+}
+
+
+.box{
+    width: 250px;
+    height: 250px;
+    border: 5px solid;
+    font-size: 13em;
+    text-align: center;
+
+    /*transform: translateX(50px);!*vai se mover para direita 50px, -50 vai se mover para esquerda em 50 px, podemos também usar percentagem*!*/
+    /*transform: translateY(50px);!*vai se mover para cima 50px, -50 vai se mover para baixa em 50 px, podemos também usar percentagem*!*/
+    /*transform: translate(50px,50px);!*move para o eixox(primeiro valor) e eixoy(segundo valor)*!*/
+
+    /*transform: rotateX(180deg);!*rotaciona o elemento no eixo x leva como argumento um valor em graus acompanhado de "deg"*!*/
+    /*transform: rotatey(180deg);!*rotaciona o elemento no eixo y leva como argumento um valor em graus acompanhado de "deg"*!*/
+    /*transform: rotateZ(180deg);!*rotaciona o elemento no eixo z leva como argumento um valor em graus acompanhado de "deg"*!*/
+
+    /*transform:scaleX(1.1);!*aumenta o tamanho no eixo x 1=100% *!*/
+    /*transform:scaleY(2);!*aumenta o tamanho no eixo x 1=100% *!*/
+    /*transform: scale(2,2);!*aumenta o tamanho no eixo x e y*!*/
+
+    /*transform:skewX(45deg);!*inclina o elemento no eixo x*!*/
+    /*transform:skewY(45deg);!*inclina o elemento no eixo y*!*/
+    /*transform: skew(45deg,45deg);!*inclina nos dois eixos*!*/
+
+    transform: translateX(100px) rotateZ(45deg) scale(0.5);
+
+
+}
+#box1{
+    background-color: hsl(120,100%,70%);
+}
+#box2{
+    background-color: hsl(0,100%,70%);
+}
+#box3{
+    background-color: hsl(217,100%,70%);
+}

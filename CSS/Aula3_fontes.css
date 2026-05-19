@@ -1,0 +1,20 @@
+@font-face {/*usado para definir fontes a escolha do programador, src:url(localizacao):indica onde a fonte se encontra*/
+    src: url(CSS/Fontes/opensans.ttf);
+    font-family: Roboto;
+}
+
+@font-face {
+    src: url(CSS/Fontes/opensans.ttf);
+    font-family: OpenSans;
+}
+
+h1{
+    font-family: Roboto, Verdana, arial;/* usamos a propriedade font-family para podermos determminar as fontes, podemos colocar mais de uma caso algumas nao sejam aceites por alguns navegadores*/
+}
+p{
+    font-family:Opensans,"lucida console", "courier new";
+    font-size:12px ;/* Usado para determinar o tamanho da font, a unidade pode ser px(pixels) ou em*/
+    font-weight: bold;/* determina a intensidade da fonte*/
+    font-style: italic;/*determina o estilo da fonte*/
+
+}

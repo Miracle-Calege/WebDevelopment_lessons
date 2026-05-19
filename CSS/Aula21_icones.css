@@ -1,0 +1,33 @@
+.icones{
+    text-align: center;
+}
+.icones a{
+    text-decoration: none;/*retira umas linhas que ficam abaixo dos icones quando adicionamos links neles*/
+    margin-right: 20px;
+}
+.fa-solid.fa-house.fa-5x{/*nome da classe nao pode ter espaco por isso "." foi adicionado*/
+    color:hsl(0,0%,66%);
+}
+.fa-brands.fa-twitter.fa-5x{
+color:rgb(0,221,255);
+}
+.fa-brands.fa-youtube.fa-5x{
+    color:hsl(0,100%,50%);
+}
+.fa-brands.fa-tiktok.fa-5x{
+    color:hsl(0,0%,10%);
+
+}.fa-solid.fa-house.fa-5x:hover{
+     color:hsl(0,0%,76%);
+ }
+.fa-brands.fa-twitter.fa-5x:hover{
+    color:hsl(188,100%,60%);
+}
+.fa-brands.fa-youtube.fa-5x:hover{
+    color:hsl(0,100%,60%);
+}
+.fa-brands.fa-tiktok.fa-5x:hover{
+    color:hsl(0,0%,20%);
+
+}
+

@@ -1,0 +1,12 @@
+body{
+    background-image: url("../HTML/images/CFM.jpeg") ;
+    background-repeat: no-repeat;/* background-repeat-determina a repeticao da imagem.  no-repeat:faz com que a imagem nao se repita*/
+    background-position:center;/*background-position:determina a posicao da imagem. center:coloca a imagem no centro*/
+    background-attachment: fixed;/*background-attachment:-determina a movimentacao da imagem.fixed-torna a imagem fixa*/
+    background-size: cover;/*determina o tamanho da imagem.size-enche a tela*/
+}
+
+/*
+background-image: url(localizacao da imagem); usado para colocar uma imagem como background
+ NB:Quando a imagem e pequena ela repete-se para compensar o gap
+ */

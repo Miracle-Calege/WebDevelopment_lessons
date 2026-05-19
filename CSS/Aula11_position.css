@@ -1,0 +1,27 @@
+#box1{
+    width: 200px;
+    height: 200px;
+    background-color: hsl(188,100%,63%);
+    position:sticky;
+    top:10px;
+
+}
+#box2{
+    width: 100px;
+    height: 100px;
+    background-color: hsl(0,100%,63%);
+    position: absolute;
+    top:50px;
+    left: 50px;
+
+}
+
+/*
+top,left,right,bottom:num px;-> coloca os elementos acima, abaixo, lado, ect
+position(usadas com as propriedade acima):
+relative->colocado na posicao original(onde normalmente aparece)
+fixed->posicionado em relacao ao viewport(fixo no viewport continua no mesmo lugar mesmo fazendo scroll)
+absolute-> posicionado proximo so seu "ancestral"
+sticky-> posicionado de acordo com o movimento do scroll
+static->  e a posicao por defeito(top.left, etc nao funcionam)
+ */

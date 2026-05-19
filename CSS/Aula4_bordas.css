@@ -1,0 +1,20 @@
+h1 {
+    /*border-style: tipo de borda, tag usada para criar bordar.
+    tipos de bordar: solid,dashed,dotted,double,groove,ridge,inset,outset,none
+     */
+    border-style: solid;
+    border-width: 3px; /* determina a largura da borda*/
+    border-color: hsl(273, 100%, 54%); /* determina a cor da borda*/
+    border-radius: 20px; /* determina a curvatura da bordar*/
+    /*border:3px solid hsl(273,100%,54%) uma forma simplifcada da linha 5,6,7*/
+
+}
+    p{
+        /*coloca bordar nas laterais*/
+        border-bottom:3px solid rgb(252,28,28);
+        border-top: 3px  solid rgb(255,255,35);
+        border-left: 3px  dotted rgb(255,179,37);
+        border-right: 3px  dotted rgb(62,255,62);
+
+    }
+
