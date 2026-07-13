@@ -2,7 +2,7 @@
 = : usado para inicializar uma variavel
 == : usado para comparar(verificar se variaveis/valores sao iguais)
 ===: usado para comparar se valores e tipos de dados sao iguais
- != : desigualdade (inverso de =)
+ != : desigualdade (inverso de ==)
  !== : inverso de (===)
  */
 
